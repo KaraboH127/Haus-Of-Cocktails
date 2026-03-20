@@ -1,0 +1,218 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Haus of Cocktails</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div id="page-loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-logo">Haus of Cocktails</div>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="logo" href="#home">Haus of Cocktails</a>
+      <nav class="nav" id="primary-nav">
+        <a href="#home">Home</a>
+        <a href="products/cocktails.html">Cocktail List</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="products/cocktails.html">View Menu</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Nightlife. Craft. Ritual.</p>
+        <h1>Haus of Cocktails</h1>
+        <p class="subtitle">A premium cocktail lounge where neon nights meet timeless mixology.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">View Cocktail List</a>
+          <a class="btn btn-outline" href="#featured">Explore Cocktails</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <span>6PM - 9PM</span>
+            <small>Happy Hour Glow</small>
+          </div>
+          <div>
+            <span>Live DJ</span>
+            <small>Fri & Sat</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="featured">
+      <div class="section-head reveal">
+        <p class="eyebrow">Featured Cocktail</p>
+        <h2>Neon Orchid</h2>
+        <p>Our most luminous pour. Floral gin, lychee, citrus mist, and edible shimmer.</p>
+        <a class="btn btn-primary" href="#menu">See the Menu</a>
+      </div>
+      <div class="featured-visual reveal">
+        <img src="https://images.unsplash.com/photo-1485265449635-ca623a55e95c?q=80&w=1200&auto=format&fit=crop" alt="Featured cocktail" />
+        <div class="featured-badge">Limited Spotlight</div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="section-title reveal">
+        <p class="eyebrow">The Menu</p>
+        <h2>Crafted for the Night</h2>
+        <p>Explore the full cocktail list by category.</p>
+      </div>
+      <div class="menu-cta reveal">
+        <a class="btn btn-primary" href="products/cocktails.html">Open Full Cocktail List</a>
+      </div>
+      <div class="menu-grid">
+        <a class="menu-card menu-category reveal" href="products/cocktails.html#classic">
+          <img src="https://images.unsplash.com/photo-1453825012366-3738046cb6c7?q=80&w=1000&auto=format&fit=crop" alt="Classic cocktails" />
+          <div class="menu-info">
+            <h3>Classic</h3>
+            <p>Timeless recipes, perfectly balanced.</p>
+            <span>View Classics</span>
+          </div>
+        </a>
+        <a class="menu-card menu-category reveal" href="products/cocktails.html#signature">
+          <img src="https://images.unsplash.com/photo-1527761939622-9119094630cf?q=80&w=1000&auto=format&fit=crop" alt="Signature cocktails" />
+          <div class="menu-info">
+            <h3>Signature</h3>
+            <p>Haus originals with a neon twist.</p>
+            <span>View Signatures</span>
+          </div>
+        </a>
+        <a class="menu-card menu-category reveal" href="products/cocktails.html#zero">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1000&auto=format&fit=crop" alt="Non-alcoholic cocktails" />
+          <div class="menu-info">
+            <h3>Non-Alcoholic</h3>
+            <p>Zero-proof, full-flavor creations.</p>
+            <span>View Zero Proof</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="happy-hour reveal" id="happy-hour">
+      <div class="happy-content">
+        <div class="happy-badge">Happy Hour</div>
+        <h2>6PM - 9PM</h2>
+        <p>Two-for-one signatures, glowing cocktail flights, and neon bites every night.</p>
+        <a class="btn btn-outline" href="cocktails.html">Join the Glow</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-image reveal">
+        <img src="https://images.unsplash.com/photo-1514361892635-6e7eaac202c7?q=80&w=1200&auto=format&fit=crop" alt="Bar interior" />
+      </div>
+      <div class="about-text reveal">
+        <p class="eyebrow">About Us</p>
+        <h2>Crafted Nights, Elevated Rituals</h2>
+        <p>Haus of Cocktails is a premium lounge born from the energy of the city after dark. We pair vintage spirits with modern technique, creating an atmosphere that feels cinematic and intimate. Every pour, every playlist, and every flicker of light is designed to make your night unforgettable.</p>
+        <div class="about-highlights">
+          <div>
+            <h4>Premium Spirits</h4>
+            <p>Small-batch labels and rare finds curated weekly.</p>
+          </div>
+          <div>
+            <h4>Immersive Atmosphere</h4>
+            <p>Neon glow, velvet seating, and an acoustic hush.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-title reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Visit the Lounge</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-details reveal">
+          <div class="detail-block">
+            <h4>Address</h4>
+            <p>221 Velvet Street, Alexandra, Johannesburg</p>
+          </div>
+          <div class="detail-block">
+            <h4>Phone</h4>
+            <p>+27 11 555 0198</p>
+          </div>
+          <div class="detail-block">
+            <h4>Hours</h4>
+            <ul>
+              <li>Mon - Thu: 5PM - 1AM</li>
+              <li>Fri - Sat: 4PM - 2AM</li>
+              <li>Sun: 6PM - 12AM</li>
+            </ul>
+          </div>
+        </div>
+        <div class="map reveal">
+          <iframe
+            title="Haus of Cocktails map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=28.0359%2C-26.2041%2C28.0559%2C-26.1941&layer=mapnik"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Haus of Cocktails</h3>
+        <p>Luxury, light, and late-night mixology.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/haus_of.cocktails?igsh=azdzb2QxeGpxaTdk" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H7zm5 2.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm6-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 9H16V6h-2.5A3.5 3.5 0 0 0 10 9.5V12H8v3h2v6h3v-6h2.2l.8-3H13v-2.5c0-.3.2-.5.5-.5z"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.9 7.5c.8-.5 1.4-1.2 1.8-2.1-.7.4-1.6.7-2.4.9a3.8 3.8 0 0 0-6.6 3.4A10.7 10.7 0 0 1 4 5.9a3.8 3.8 0 0 0 1.2 5.1 3.7 3.7 0 0 1-1.7-.5v.1a3.8 3.8 0 0 0 3 3.7c-.5.1-1.1.1-1.6.1a3.8 3.8 0 0 0 3.5 2.6A7.6 7.6 0 0 1 3 18.4a10.7 10.7 0 0 0 5.8 1.7c7 0 10.9-5.9 10.9-10.9v-.5c.7-.5 1.3-1.1 1.8-1.7z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="products/cocktails.html">Cocktail List</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-cta">
+        <h4>Ready for Tonight?</h4>
+        <p>Explore the menu and drop in for a neon-lit pour.</p>
+        <a class="btn btn-primary" href="products/cocktails.html">See the Menu</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Haus of Cocktails. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
