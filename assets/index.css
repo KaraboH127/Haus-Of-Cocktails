@@ -678,6 +678,12 @@ section {
     url("https://images.unsplash.com/photo-1486947799489-3fabdd7d32b2?q=80&w=2000&auto=format&fit=crop") center/cover no-repeat;
 }
 
+.cocktails-hero .hero-content {
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+}
+
 .cocktails-hero h1 {
   font-size: clamp(2.6rem, 4vw, 4rem);
   margin-bottom: 1rem;
